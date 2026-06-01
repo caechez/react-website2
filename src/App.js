@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       {/* <Background/> */}
-        <Router>
+        <Router basename="/react-website2">
           <Navbar/>
           <Routes>
             <Route path='/' exact element={<Home />} />
