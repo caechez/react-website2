@@ -1,0 +1,60 @@
+.gallery {
+    display: flex;
+    font-family: "IBM Plex Mono", monospace;
+    overflow: hidden;
+}
+
+.gallery .main {
+    width: 1185px;
+}
+.gallery .container {
+    grid-template-areas:
+        "header header header . ."
+        "desc desc desc desc desc"
+        "content content content content content";
+}
+
+.gallery .container div.header {
+  grid-area: header;
+  text-align: end;
+
+  font-family: "EB Garamond", serif;
+  font-size: 32px;
+  padding:10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 300px;
+
+  border: solid 2px white;
+}
+.gallery .container{
+    width: 91%;
+}
+
+@media only screen and (max-width: 815px){
+
+    /* .gallery .container {
+        grid-template-areas:
+            "header header header"
+            "desc desc desc"
+            "content content content";
+            grid-template-columns: 1fr 1fr 1fr;
+
+    } */
+
+    .gallery .container {
+        grid-template-areas:
+            "header header"
+            "desc desc"
+            "content content ";
+            grid-template-columns: 1fr 1fr;
+
+    }
+    
+    .gallery .container div.header{
+        height:36.81vw;
+    }
+      /* h1{
+        font-size: 3.926vw;
+    } */
+}

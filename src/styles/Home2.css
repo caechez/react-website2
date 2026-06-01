@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "EB Garamond";
+  src: url(../assets/EB\ Garamond.ttf);
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url(../assets/IBMPlexMono-Regular.ttf);
+}
+
+.home {
+    display: flex;
+    font-family: IBM Plex Mono, monospace;
+}
+
+.margin-left{
+    flex: auto;
+    max-width: 200px;
+    min-width: 18px;
+}
+.margin-right{
+    flex:none;
+    width: 26px;
+}
+.container {
+    width: 100%;
+    max-width:1185px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-areas:
+        "header header pic . ."
+        "desc desc desc desc desc"
+        "content content content content content";
+    grid-template-columns: 1.75fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    z-index: 5;
+}
+.container div {
+  color:white;
+}
+.container div.header {
+  grid-area: header;
+  place-content: end;
+  text-align: end;
+
+  font-family: EB Garamond;
+  font-size: 32px;
+  padding:10px;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  border: solid 2px white;
+  
+}
+
+.container div.pic {
+  grid-area: pic;
+  position: relative;
+  border:solid 2px;
+  border-color: transparent;
+  height: 300px;
+}
+.container div.desc {
+  grid-area: desc;
+  border: solid 2px white;
+  border-bottom: none;
+  border-right: none;
+  padding-left:15px;
+}
+.container div.content {
+  grid-area: content;
+  border: solid 2px white;
+  border-bottom: none;
+  border-right: none;
+  padding-left:15px;
+}
+
+h1{
+    margin:0;
+}
+
+h2 {
+    font-size: 20px;
+}
+span {
+  padding-left: 10px;
+  font-size: 0.8em;
+}
+
+a {
+  font-size: 24px;
+}
+.home a{
+    padding-left:10px;
+}
+
+@media only screen and (max-width: 1050px){
+    .home .container {
+        display: grid;
+            grid-template-areas:
+            "header header header pic"
+            "desc desc desc desc"
+            "content content content content";
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 815px){
+    .container div.pic{
+        height:auto;
+    }
+    img{
+        width: 24.54vw;
+    }
+    h1{
+        font-size: 7.8vw;
+    }
+    h2{
+        font-size: 16px;
+    }
+    a{
+        font-size:18px;
+    }
+}

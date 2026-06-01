@@ -1,0 +1,105 @@
+.contact {
+    display: flex;
+    font-family: IBM Plex Mono, monospace;
+}
+.contact .container {
+    display: grid;
+    grid-template-areas:
+        "header header header none none"
+        "desc desc desc desc desc"
+        "content content content content content";
+    grid-template-columns: 1.75fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+
+}
+
+.contact .container div.header {
+  grid-area: header;
+  text-align: end;
+
+  font-family: EB Garamond;
+  font-size: 32px;
+  padding:10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 300px;
+
+  border: solid 2px white;
+}
+
+form {
+  padding-left:10px;
+  margin-top: 25px;
+
+  display: flex;
+  flex-direction: column;
+
+  font-family: IBM Plex Mono;
+  font-size: 20px;
+}
+
+form input {
+  height: 55px;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  background-color: transparent;
+  font-family: IBM Plex Mono;
+  font-size: 20px;
+}
+
+form textarea {
+  height: 200px;
+  padding-top: 10px;
+  border: none;
+  color: white;
+  background-color: transparent;
+
+  font-family: IBM Plex Mono;
+  font-size: 20px;
+  resize: none;
+}
+input::placeholder,
+textarea::placeholder {
+  color: white;
+  opacity: 0.8;
+  
+
+}
+form input:focus,
+textarea:focus {
+  outline: none;
+}
+button{
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+  place-self: end;
+  border: solid 2px white;
+  background-color: transparent;
+  font-family: 'IBM Plex Mono';
+  font-size: 20px;
+  color: white;
+
+  background-color: rgb(255 255 255/0%);
+
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: rgb(255 255 255/50%);
+}
+@media only screen and (max-width: 815px){
+
+    .contact .container {
+        display: grid;
+            grid-template-areas:
+            "header"
+            "desc"
+            "content";
+        grid-template-columns: 1fr;
+    }
+    .contact .container div.header{
+        height:36.81vw;
+    }
+}

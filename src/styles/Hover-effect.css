@@ -1,0 +1,29 @@
+.hover-effect {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.hover-effect::before {
+    content: "/";
+    position: absolute;
+    left: -11px;
+    opacity: 0;
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+
+    transform: translateX(-4px);
+}
+
+.hover-effect:hover::before {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.hover-effect:hover {
+  transform: translateX(5px);
+
+}
