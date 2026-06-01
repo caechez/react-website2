@@ -1,9 +1,9 @@
 {
+  "homepage": "https://caechez.github.io/react-website2",
   "name": "react_testas",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage": "https://caechez.github.io/react-website2",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^9.0.1",
