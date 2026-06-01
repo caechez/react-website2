@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.01571827.css",
-    "main.js": "/static/js/main.f192afcf.js",
-    "static/js/453.d413b5db.chunk.js": "/static/js/453.d413b5db.chunk.js",
-    "static/media/bg2.png": "/static/media/bg2.93b3405f8b216d9ad148.png",
-    "static/media/EB Garamond.ttf": "/static/media/EB Garamond.0ce1bc547dbafd94fd25.ttf",
-    "static/media/logo.png": "/static/media/logo.5b0f0de951f9afed3c75.png",
-    "static/media/IBMPlexMono-Regular.ttf": "/static/media/IBMPlexMono-Regular.ad81fa76f2575c4d48d6.ttf",
-    "static/media/portrait.png": "/static/media/portrait.05c3191991e788674504.png",
-    "static/media/bg.svg": "/static/media/bg.6e631088b02f374cdc992c99afcf5d7d.svg",
-    "index.html": "/index.html",
-    "main.01571827.css.map": "/static/css/main.01571827.css.map",
-    "main.f192afcf.js.map": "/static/js/main.f192afcf.js.map",
-    "453.d413b5db.chunk.js.map": "/static/js/453.d413b5db.chunk.js.map"
+    "main.css": "/react-website2/static/css/main.d28624bd.css",
+    "main.js": "/react-website2/static/js/main.043f4066.js",
+    "static/js/453.d413b5db.chunk.js": "/react-website2/static/js/453.d413b5db.chunk.js",
+    "static/media/bg2.png": "/react-website2/static/media/bg2.93b3405f8b216d9ad148.png",
+    "static/media/EB Garamond.ttf": "/react-website2/static/media/EB Garamond.0ce1bc547dbafd94fd25.ttf",
+    "static/media/logo.png": "/react-website2/static/media/logo.5b0f0de951f9afed3c75.png",
+    "static/media/IBMPlexMono-Regular.ttf": "/react-website2/static/media/IBMPlexMono-Regular.ad81fa76f2575c4d48d6.ttf",
+    "static/media/portrait.png": "/react-website2/static/media/portrait.05c3191991e788674504.png",
+    "static/media/bg.svg": "/react-website2/static/media/bg.6e631088b02f374cdc992c99afcf5d7d.svg",
+    "index.html": "/react-website2/index.html",
+    "main.d28624bd.css.map": "/react-website2/static/css/main.d28624bd.css.map",
+    "main.043f4066.js.map": "/react-website2/static/js/main.043f4066.js.map",
+    "453.d413b5db.chunk.js.map": "/react-website2/static/js/453.d413b5db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01571827.css",
-    "static/js/main.f192afcf.js"
+    "static/css/main.d28624bd.css",
+    "static/js/main.043f4066.js"
   ]
 }
