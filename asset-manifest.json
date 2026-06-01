@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01571827.css",
+    "main.js": "/static/js/main.1e8ed111.js",
+    "static/js/453.d413b5db.chunk.js": "/static/js/453.d413b5db.chunk.js",
+    "static/media/bg2.png": "/static/media/bg2.93b3405f8b216d9ad148.png",
+    "static/media/EB Garamond.ttf": "/static/media/EB Garamond.0ce1bc547dbafd94fd25.ttf",
+    "static/media/logo.png": "/static/media/logo.5b0f0de951f9afed3c75.png",
+    "static/media/IBMPlexMono-Regular.ttf": "/static/media/IBMPlexMono-Regular.ad81fa76f2575c4d48d6.ttf",
+    "static/media/portrait.png": "/static/media/portrait.05c3191991e788674504.png",
+    "static/media/bg.svg": "/static/media/bg.6e631088b02f374cdc992c99afcf5d7d.svg",
+    "index.html": "/index.html",
+    "main.01571827.css.map": "/static/css/main.01571827.css.map",
+    "main.1e8ed111.js.map": "/static/js/main.1e8ed111.js.map",
+    "453.d413b5db.chunk.js.map": "/static/js/453.d413b5db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01571827.css",
+    "static/js/main.1e8ed111.js"
+  ]
+}
